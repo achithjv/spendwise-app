@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>SpendWise - Your Finances, Simplified</title>
+    <meta name="description" content="SpendWise is a comprehensive expense tracker app with AI-powered insights, savings goals, and gamified achievements.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <span class="rupee-symbol">₹</span>
+                </div>
+                <span class="logo-text">SpendWise</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#specs" class="nav-link">Why Choose Us</a></li>
+                <li><a href="#devices" class="nav-link">Devices</a></li>
+                <li><a href="#download" class="nav-link">Download</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-logo">
+                <div class="logo-container">
+                    <div class="logo-icon-large">
+                        <span class="rupee-symbol-large">₹</span>
+                    </div>
+                    <h1 class="hero-title">SpendWise</h1>
+                </div>
+            </div>
+            <p class="hero-tagline">Your Finances, Simplified</p>
+            <p class="hero-subtitle">Everything in One Place</p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn btn-primary">Get Started</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Everything you need to take control of your finances</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Dashboard Overview</h3>
+                    <p>Get a comprehensive view of your financial health with smart insights and real-time analytics.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Budget Assistant</h3>
+                    <p>Intelligent recommendations and automated insights to help you make better financial decisions.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Savings Goals</h3>
+                    <p>Set and track your savings goals with visual progress indicators and milestone celebrations.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Achievements & Badges</h3>
+                    <p>Gamified experience with badges and achievements to keep you motivated on your financial journey.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Recurring Expenses</h3>
+                    <p>Automatically track and manage recurring bills and subscriptions with smart reminders.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-chart-line"></i>
+                    </div>
+                    <h3>Reports & Analytics</h3>
+                    <p>Detailed reports and visual analytics to understand your spending patterns and trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why SpendWise Section -->
+    <section id="specs" class="why-spendwise">
+        <div class="container">
+            <div class="why-content">
+                <div class="why-text">
+                    <h2>Why Choose SpendWise?</h2>
+                    <p class="why-subtitle">More than just an expense tracker</p>
+                    
+                    <div class="benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>AI-Powered Insights</h4>
+                                <p>Get personalized financial advice and spending pattern analysis powered by artificial intelligence.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Gamified Experience</h4>
+                                <p>Stay motivated with achievements, badges, and progress tracking that makes saving fun.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Secure & Private</h4>
+                                <p>Your financial data is protected with bank-level security and privacy controls.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Cross-Platform</h4>
+                                <p>Access your finances anywhere with our web and mobile applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="why-visual">
+                    <div class="app-mockup">
+                        <div class="mockup-screen">
+                            <div class="mockup-header">
+                                <div class="mockup-logo">
+                                    <span class="rupee-symbol">₹</span>
+                                </div>
+                                <span>SpendWise</span>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="mockup-card">
+                                    <h4>Dashboard</h4>
+                                    <div class="mockup-stats">
+                                        <div class="stat">
+                                            <span class="stat-label">Income</span>
+                                            <span class="stat-value">₹45,000</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-label">Expenses</span>
+                                            <span class="stat-value">₹32,000</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-label">Savings</span>
+                                            <span class="stat-value">₹13,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available on All Devices Section -->
+    <section id="devices" class="devices-section">
+        <div class="container">
+            <div class="devices-header">
+                <h2>Available on All Your Devices</h2>
+                <p class="devices-subtitle">Seamlessly sync your finances across desktop and mobile</p>
+            </div>
+            
+            <div class="devices-showcase">
+                <div class="device-mockup">
+                    <div class="laptop-mockup">
+                        <div class="laptop-screen">
+                            <div class="laptop-content">
+                                <div class="laptop-header">
+                                    <div class="laptop-logo">
+                                        <span class="rupee-symbol">₹</span>
+                                    </div>
+                                    <span class="laptop-title">SpendWise</span>
+                                </div>
+                                <div class="laptop-dashboard">
+                                    <div class="laptop-sidebar">
+                                        <div class="sidebar-item active">
+                                            <i class="fas fa-home"></i>
+                                            <span>Dashboard</span>
+                                        </div>
+                                        <div class="sidebar-item">
+                                            <i class="fas fa-list"></i>
+                                            <span>Transactions</span>
+                                        </div>
+                                        <div class="sidebar-item">
+                                            <i class="fas fa-chart-bar"></i>
+                                            <span>Reports</span>
+                                        </div>
+                                        <div class="sidebar-item">
+                                            <i class="fas fa-bullseye"></i>
+                                            <span>Goals</span>
+                                        </div>
+                                    </div>
+                                    <div class="laptop-main">
+                                        <div class="laptop-stats">
+                                            <div class="stat-card">
+                                                <h4>Total Income</h4>
+                                                <p class="stat-value">₹45,000</p>
+                                                <div class="stat-trend positive">
+                                                    <i class="fas fa-arrow-up"></i>
+                                                    <span>+12%</span>
+                                                </div>
+                                            </div>
+                                            <div class="stat-card">
+                                                <h4>Total Expenses</h4>
+                                                <p class="stat-value">₹32,000</p>
+                                                <div class="stat-trend negative">
+                                                    <i class="fas fa-arrow-down"></i>
+                                                    <span>-8%</span>
+                                                </div>
+                                            </div>
+                                            <div class="stat-card">
+                                                <h4>Savings</h4>
+                                                <p class="stat-value">₹13,000</p>
+                                                <div class="stat-trend positive">
+                                                    <i class="fas fa-arrow-up"></i>
+                                                    <span>+25%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+                
+                <div class="devices-info">
+                    <div class="device-features">
+                        <div class="device-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Cross-Platform Sync</h4>
+                                <p>Your data syncs automatically across all your devices in real-time</p>
+                            </div>
+                        </div>
+                        
+                        <div class="device-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Mobile Optimized</h4>
+                                <p>Perfect experience on smartphones and tablets with touch-friendly interface</p>
+                            </div>
+                        </div>
+                        
+                        <div class="device-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Desktop Power</h4>
+                                <p>Full-featured desktop experience with advanced analytics and reporting</p>
+                            </div>
+                        </div>
+                        
+                        <div class="device-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Cloud Backup</h4>
+                                <p>Your financial data is safely stored in the cloud and always accessible</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="download" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Take Control?</h2>
+                <p>Join thousands of users who have already simplified their financial life with SpendWise</p>
+                
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-large">
+                        <i class="fab fa-google-play"></i>
+                        Get it on Google Play
+                    </a>
+                    <a href="#" class="btn btn-secondary btn-large">
+                        <i class="fab fa-apple"></i>
+                        Download on App Store
+                    </a>
+                </div>
+                
+                <div class="cta-alternative">
+                    <p>Or try our web version</p>
+                    <a href="#" class="btn btn-outline">Sign Up Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span class="rupee-symbol">₹</span>
+                        </div>
+                        <span>SpendWise</span>
+                    </div>
+                    <p>Your Finances, Simplified</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#specs">Why Choose Us</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SpendWise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
