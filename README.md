@@ -29,17 +29,6 @@ A comprehensive Flutter expense tracking application with AI-powered insights, g
 
 **🌐 Web App**: [https://shiny-medovik-28bc07.netlify.app](https://shiny-medovik-28bc07.netlify.app)
 
-## 📱 Screenshots
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Charts & Analytics
-![Charts](screenshots/charts.png)
-
-### Profile & Settings
-![Profile](screenshots/profile.png)
-
 ## 🛠️ Technology Stack
 
 - **Framework**: Flutter 3.32.8
@@ -211,9 +200,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Email**: your.email@example.com
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/spendwise-app/issues)
-- **Documentation**: [Wiki](https://github.com/yourusername/spendwise-app/wiki)
+- **Email**: achithjv2003@gmail.com
+- **GitHub Issues**: [Create an issue](https://github.com/achithjv/spendwise-app/issues)
+- **Documentation**: [Wiki](https://github.com/achithjv/spendwise-app/wiki)
 
 ## 🎯 Roadmap
 
