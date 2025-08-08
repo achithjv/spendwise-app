@@ -1,35 +1,35 @@
-# 🚀 SpendWise - Smart Expense Tracker
+SpendWise - Smart Expense Tracker
 
 A comprehensive Flutter expense tracking application with AI-powered insights, gamified achievements, and cross-platform support.
 
-## 🌟 Features
+Features
 
-### 📊 **Core Features**
-- **Smart Dashboard** - Real-time financial overview
-- **Transaction Management** - Add, edit, categorize expenses
-- **Interactive Charts** - Visual spending analysis
-- **AI Insights** - Personalized financial recommendations
-- **Savings Goals** - Track and achieve financial targets
-- **Gamification** - Badges and achievements system
+Core Features
+- Smart Dashboard - Real-time financial overview
+- Transaction Management - Add, edit, categorize expenses
+- Interactive Charts - Visual spending analysis
+- AI Insights - Personalized financial recommendations
+- Savings Goals - Track and achieve financial targets
+- Gamification - Badges and achievements system
 
-### 📱 **Advanced Features**
-- **Data Export** - CSV, PDF, and summary reports
-- **Profile Management** - Customizable user profiles
-- **Security Settings** - 2FA and privacy controls
-- **Cross-Platform Sync** - Web, mobile, and desktop
-- **Dark/Light Mode** - Beautiful UI themes
+Advanced Features
+- Data Export - CSV, PDF, and summary reports
+- Profile Management - Customizable user profiles
+- Security Settings - 2FA and privacy controls
+- Cross-Platform Sync - Web, mobile, and desktop
+- Dark/Light Mode- Beautiful UI themes
 
-### 🎯 **Technical Features**
+Technical Features
 - **Responsive Design** - Works on all screen sizes
 - **Offline Support** - Local data storage
 - **Real-time Updates** - Live data synchronization
 - **Performance Optimized** - Fast and smooth experience
 
-## 🚀 Live Demo
+Live Demo
 
-**🌐 Web App**: [https://shiny-medovik-28bc07.netlify.app](https://shiny-medovik-28bc07.netlify.app)
+Web App: [https://shiny-medovik-28bc07.netlify.app](https://shiny-medovik-28bc07.netlify.app)
 
-## 🛠️ Technology Stack
+Technology Stack
 
 - **Framework**: Flutter 3.32.8
 - **Language**: Dart
@@ -40,19 +40,19 @@ A comprehensive Flutter expense tracking application with AI-powered insights, g
 - **UI Components**: Material Design 3
 - **Deployment**: Netlify
 
-## 📦 Installation
+Installation
 
-### Prerequisites
+Prerequisites
 - Flutter SDK (3.32.8 or higher)
 - Dart SDK
 - Android Studio / VS Code
 - Git
 
-### Setup Instructions
+Setup Instructions
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/spendwise-app.git
+git clone https://github.com/achithjv/spendwise-app.git
 cd spendwise-app
 ```
 
@@ -85,7 +85,7 @@ flutter build apk --release
 flutter build appbundle --release
 ```
 
-## 🏗️ Project Structure
+Project Structure
 
 ```
 lib/
@@ -106,9 +106,9 @@ lib/
     └── helpers.dart
 ```
 
-## 🚀 Deployment
+Deployment
 
-### Web Deployment
+Web Deployment
 ```bash
 # Build for web
 flutter build web --release
@@ -117,7 +117,7 @@ flutter build web --release
 netlify deploy --prod --dir=build/web
 ```
 
-### Mobile Deployment
+Mobile Deployment
 ```bash
 # Android APK
 flutter build apk --release
@@ -128,49 +128,47 @@ flutter build appbundle --release
 # iOS (requires macOS)
 flutter build ios --release
 ```
+Key Features Explained
 
-## 📊 Key Features Explained
-
-### 1. **Smart Dashboard**
+ 1. **Smart Dashboard**
 - Real-time financial overview
 - Income vs expense tracking
 - Monthly/yearly comparisons
 - Quick action buttons
 
-### 2. **Interactive Charts**
+ 2. **Interactive Charts**
 - Line charts for trends
 - Pie charts for categories
 - Bar charts for comparisons
 - Real-time data updates
 
-### 3. **AI-Powered Insights**
+ 3. **AI-Powered Insights**
 - Spending pattern analysis
 - Budget recommendations
 - Savings suggestions
 - Financial tips
 
-### 4. **Gamification System**
+ 4. **Gamification System**
 - Achievement badges
 - Progress tracking
 - Milestone celebrations
 - Motivation system
 
-### 5. **Data Export**
+ 5. **Data Export**
 - CSV export for spreadsheets
 - PDF reports for sharing
 - Summary reports
 - Custom date ranges
 
-## 🔧 Configuration
+Configuration
 
-### Environment Setup
+Environment Setup
 ```bash
 # Set up environment variables
 cp .env.example .env
 # Edit .env with your configuration
 ```
-
-### Firebase Setup (Optional)
+Firebase Setup (Optional)
 ```bash
 # Install Firebase CLI
 npm install -g firebase-tools
@@ -179,7 +177,7 @@ npm install -g firebase-tools
 firebase init hosting
 ```
 
-## 🤝 Contributing
+Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -187,24 +185,24 @@ firebase init hosting
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+Acknowledgments
 
 - Flutter team for the amazing framework
 - Material Design for UI components
 - Netlify for hosting
 - All contributors and supporters
 
-## 📞 Support
+Support
 
 - **Email**: achithjv2003@gmail.com
 - **GitHub Issues**: [Create an issue](https://github.com/achithjv/spendwise-app/issues)
 - **Documentation**: [Wiki](https://github.com/achithjv/spendwise-app/wiki)
 
-## 🎯 Roadmap
+Roadmap
 
 - [ ] Cloud sync functionality
 - [ ] Multi-currency support
@@ -215,6 +213,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ Star this repository if you find it helpful!**
+Star this repository if you find it helpful!**
 
-**🚀 Built with ❤️ using Flutter**
+Built with ❤️ using Flutter**
